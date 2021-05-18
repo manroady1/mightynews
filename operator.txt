@@ -1,0 +1,33 @@
+these are the variable and the operators which are used in the programs
+They are unique to shell scripting language only
+
+Integer comparison
+
+ -eq is equal to [ "$a" -eq "$b" ]
+
+ -ne is not equal to [ "$a" -ne "$b" ]
+
+ -gt is greater then [ "$a" -gt "$b" ]
+
+ -ge is greater then or equal to [ "$a" -ge "$b" ]
+
+ -lt is less then [ "$a" -lt "$b" ]
+
+ -le is less then or equal to [ "$a" -le "$b" ]
+
+ < is less then (( "$a" -eq "$b" ))
+
+ <= is less then or equal to (( "$a" <= "$b" ))
+
+ > is greater then (( "$a" > "$b" ))
+
+ >= is greater thn or equal to (( "$a" >= "$b" ))
+
+ if you are using string you have to use square brackets
+
+   [ ] for =  operators
+   [ ]  ==
+   [ ]  != not equal
+  [[]]  <
+  [[]]  >
+   -z string is null that is it has zero length
